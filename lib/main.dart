@@ -55,8 +55,19 @@ Row(
  Icon(Icons.favorite, color: Colors.pink, size: 40),
 
  ],
-)
+),
 
+
+Column(
+ mainAxisAlignment: MainAxisAlignment.center,
+ crossAxisAlignment: CrossAxisAlignment.center,
+ children: [
+ Text('Titre principal', style: TextStyle(fontSize: 50)),
+ SizedBox(height: 50),
+ Text('Sous-titre ou description'),
+ Icon(Icons.thumb_up, color: Colors.green, size: 50),
+ ],
+),
             ],
             ),
           ),
