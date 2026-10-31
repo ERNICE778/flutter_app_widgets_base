@@ -20,7 +20,7 @@ class MainApp extends StatelessWidget {
 
 
         Container(
-          margin: EdgeInsets.all(20),
+          margin: EdgeInsets.all(30),
           padding: EdgeInsets.all(16),
           decoration: BoxDecoration(
           color: Colors.blueAccent,
@@ -46,7 +46,7 @@ class MainApp extends StatelessWidget {
 ),
 
 Row(
- mainAxisAlignment: MainAxisAlignment.spaceAround,
+ mainAxisAlignment: MainAxisAlignment.spaceBetween,
  crossAxisAlignment: CrossAxisAlignment.center,
  children: [
  Icon(Icons.home, color: Colors.blue, size: 40),
